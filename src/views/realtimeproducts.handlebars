@@ -6,15 +6,13 @@
 
     <div class="form-container-realtimeproducts">
         <form id="formAddProduct" method="POST">
-            <input class="form-control" type="text" id="title" name="title" placeholder="Titulo" value="testTitle">
-            <input class="form-control" type="text" id="description" name="description" placeholder="Descripcion"
-                value="testDescription">
-            <input class="form-control" type="number" id="price" name="price" placeholder="Precio" value="1234">
-            <input class="form-control" type="file" id="img" name="img" accept="image/*" required>
-            <input class="form-control" type="text" id="code" name="code" placeholder="Código" value="testCode">
-            <input class="form-control" type="number" id="stock" name="stock" placeholder="Stock" value="1234">
-            <input class="form-control" type="text" id="category" name="category" placeholder="Categoria"
-                value="testCategory">
+            <input class="form-control" type="text" id="title" name="title" placeholder="Titulo" required>
+            <input class="form-control" type="text" id="description" name="description" placeholder="Descripcion" required>
+            <input class="form-control" type="number" id="price" name="price" placeholder="Precio" required>
+            <input class="form-control" type="file" id="img" name="img" accept="image/*">
+            <input class="form-control" type="text" id="code" name="code" placeholder="Código" required>
+            <input class="form-control" type="number" id="stock" name="stock" placeholder="Stock" required>
+            <input class="form-control" type="text" id="category" name="category" placeholder="Categoria" required>
             <select class="form-select" id="status" name="status">
                 <option selected value="true">Activo</option>
                 <option value="false">Inactivo</option>
